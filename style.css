@@ -89,6 +89,15 @@ p{
     padding-right: 25px;
 }
 
+.container-up .navbar{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* background: black; */
+    /* background: radial-gradient(#fff, #ffd6d6); */
+}
+
 .row{
     display: flex;
     align-items: center;
