@@ -397,10 +397,9 @@ ul{
         display: block;
         cursor: pointer;
     }
-
     .search-box{
         /* display: block; */
-        visibility: hidden;
+        display: none;
         /* left: 400px;
         width: 0px; */
         /* overflow: hidden; */
@@ -465,6 +464,13 @@ select:focus{
 
     .cart-info p{
         display: none;
+    }
+    .search-box{
+        /* display: block; */
+        display: none;
+        /* left: 400px;
+        width: 0px; */
+        /* overflow: hidden; */
     }
 }
 
