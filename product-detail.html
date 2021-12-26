@@ -32,35 +32,74 @@
     </head>
     <body>
         <div class="container">
-            <div class="navbar">
+            <!-- <div class="navbar">
                 <div class="logo">
-                    <img src="images/logo.png" width="125px">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
                 </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
+                    <li><a href="account.html">Account</a></li>
 
                 </ul>
             </nav>
-            <img src="images/cart.png" width="30px" height="30px">
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            </div> -->
+            
+            <div class="navbar">
+                <div class="logo">
+                    <!-- <a href="index.html" >Book Store</a> -->
+                    <a href="index.html"><img src="LOGO.png" width="150px"></a>
+                </div>
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder="Type to search">
+                    <a class="search-btn" href="#"><i class="fa fa-search"></i>
+
+                    </a>
+                </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="products.html">分類</a></li>
+                    <li><a href="">排行榜</a></li>
+                    <li><a href="">我的書櫃</a></li>
+                    <li><a href="account.html">登入</a></li>
+                    <!-- <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li> -->
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
 
             </div>
+
+
         </div>
     <!-- -------single product details--------- -->
         <div class="small-container single-product">
             <div class="row">
                 <div class="col-2">
-                    <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+                    <img src="book-Home/Book1.jpeg" width="100%" id="ProductImg">
                     <div class="small-img-row">
                         <div class="small-img-col">
-                            <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                            <img src="book-Home/Book1.jpeg" width="100%" class="small-img">
                         </div>
                         <div class="small-img-col">
+                            <img src="book-Home/true.jpeg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <!-- <img src="book-Home/true.jpeg" width="100%" class="small-img"> -->
+                        </div>
+                        <div class="small-img-col">
+                            <!-- <img src="book-Home/true.jpeg" width="100%" class="small-img"> -->
+                        </div>
+
+                        <!-- <div class="small-img-col">
                             <img src="images/gallery-2.jpg" width="100%" class="small-img">
                         </div>
                         <div class="small-img-col">
@@ -68,12 +107,13 @@
                         </div>
                         <div class="small-img-col">
                             <img src="images/gallery-4.jpg" width="100%" class="small-img">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-2">
-                    <p>Home / T-shirt</p>
-                    <h1>Red Printed T-Shirt by HRX</h1>
+                    <!-- <p>Home / T-shirt</p> -->
+                    <p>哲學</p>
+                    <h1>真理的史詩</h1>
                     <h4>$50.00</h4>
                     <select>
                         <option>Select number</option>
@@ -97,14 +137,14 @@
         </div>
 
         <!-- -----products------ -->
-    <!-- featured products -->
+    <!-- Related products -->
         <div class="small-container">
  
 
             <div class="row">
                 <div class = "col-4">
-                    <img src="images/product-9.jpg">
-                    <h4>Red Printed T-shirt</h4>
+                    <img src="book-Home/book2.jpeg">
+                    <h4>Toeic</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -116,8 +156,8 @@
                     <p>$50.00</p>
                 </div>
                 <div class = "col-4">
-                    <img src="images/product-10.jpg">
-                    <h4>Red Printed T-shirt</h4>
+                    <img src="book-Home/book3.jpeg">
+                    <h4>Toeic2</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -129,8 +169,8 @@
                     <p>$50.00</p>
                 </div>
                 <div class = "col-4">
-                    <img src="images/product-11.jpg">
-                    <h4>Red Printed T-shirt</h4>
+                    <img src="book-Home/book4.jpeg">
+                    <h4>元宇宙</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -142,7 +182,7 @@
                     <p>$50.00</p>
                 </div>
                 <div class = "col-4">
-                    <img src="images/product-12.jpg">
+                    <!-- <img src="images/product-12.jpg">
                     <h4>Red Printed T-shirt</h4>
                     <div class="rating">
                         <i class="fa fa-star"></i>
@@ -152,7 +192,7 @@
                         <i class="fa fa-star-o"></i>
 
                     </div>
-                    <p>$50.00</p>
+                    <p>$50.00</p> -->
                 </div>
             </div>
             <div class="page-btn">
@@ -178,7 +218,7 @@
                         </div>
                     </div>
                     <div class="footer-col-2">
-                        <img src="images/logo-white.png">
+                        <img src="LOGO.png">
                         <h3>Download Our app</h3>
                         <p>Download App for Android and ios mobile phone</p>
                     </div>

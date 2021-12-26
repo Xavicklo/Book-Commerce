@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    background: black;
 }
 
 nav{
@@ -26,6 +27,16 @@ nav ul li{
     margin-right: 20px;
 }
 
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
 a{
     text-decoration: none;
     color: #555;
@@ -33,53 +44,6 @@ a{
 
 p{
     color: #555;
-}
-
-.search-box{
-    position: absolute;
-    left: 30%;
-    top: 6%;
-    transform: translate(-50%, -50%);
-    background: #2f3640;
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.search-btn{
-    background: #2f3640;
-    color: #e84118;
-    float: right;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    /* background: ; */
-}
-
-.search-box:hover > .search-txt{
-    width: 240px;
-    padding: 0 6px;
-}
-
-.search-box:hover > .search-txt{
-    background: #2f3640;
-}
-
-.search-txt{
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 20px;
-    width: 240px;
 }
 
 .container{
@@ -168,10 +132,7 @@ p{
 
 .col-4 img{
     width: 100%;
-}
 
-.container .col-4 img{
-    height: 100px;
 }
 
 .title{
@@ -504,8 +465,6 @@ input:focus{
 .small-img-col{
     flex-basis: 24%;
     cursor: pointer;
-    border-style: groove;
-    /* border: 1px black; */
 }
 
 /* ------car items----- */
