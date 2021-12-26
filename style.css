@@ -397,6 +397,14 @@ ul{
         display: block;
         cursor: pointer;
     }
+
+    .search-box{
+        /* display: block; */
+        visibility: hidden;
+        /* left: 400px;
+        width: 0px; */
+        /* overflow: hidden; */
+    }
 }
 
 /* ----------all products page-------- */
