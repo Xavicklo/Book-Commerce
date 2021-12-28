@@ -37,10 +37,10 @@ p{
 
 .search-box{
     position: absolute;
-    left: 450px;
-    top: 40px;
-    /* left: 30%;
-    top: 6%; */
+    /* left: 400px;
+    top: 40px; */
+    left: 35%;
+    top: 6%;
     transform: translate(-50%, -50%);
     background: #2f3640;
     height: 40px;
@@ -63,7 +63,7 @@ p{
 }
 
 .search-box:hover > .search-txt{
-    width: 240px;
+    width: 150px;
     padding: 0 6px;
 }
 
@@ -81,7 +81,7 @@ p{
     font-size: 16px;
     transition: 0.4s;
     line-height: 20px;
-    width: 240px;
+    width: 150px;
 }
 
 .container{
