@@ -39,12 +39,12 @@ p{
     position: absolute;
     /* left: 400px;
     top: 40px; */
-    left: 35%;
-    top: 6%;
+    right: 1%;
+    /* top: 6%; */
     transform: translate(-50%, -50%);
     background: #2f3640;
     height: 40px;
-    border-radius: 40px;
+    border-radius: 50px;
     padding: 10px;
 }
 
@@ -63,7 +63,7 @@ p{
 }
 
 .search-box:hover > .search-txt{
-    width: 150px;
+    width: 280px;
     padding: 0 6px;
 }
 
