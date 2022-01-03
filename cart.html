@@ -35,14 +35,14 @@
             <div class="navbar">
                 <div class="logo">
                     <!-- <a href="index.html" >Book Store</a> -->
-                    <a href="index.html"><img src="LOGO.png" width="150px"></a>
+                    <a href="index.html"><img src="Book store.jpeg" width="150px"></a>
                 </div>
                
                 <nav>
                     <ul id="MenuItems">
                         <li><a href="index.html">首頁</a></li>
                         <li><a href="products.html">分類</a></li>
-                        <li><a href="">我的書櫃</a></li>
+                        <li><a href="Yourbooks.html">我的書櫃</a></li>
                         <li><a href="account.html">登入</a></li>
                         <!-- <li><a href="">About</a></li>
                         <li><a href="">Contact</a></li> -->
@@ -51,9 +51,9 @@
                 <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
-            <div class="search-box">
+            <!-- <div class="search-box">
                 <input class="search-txt" type="text" name="" placeholder="Type to search">
-                <a class="search-btn" href="#"><i class="fa fa-search"></i>
+                <a class="search-btn" href="#"><i class="fa fa-search"></i> -->
 
                 </a>
             </div>
@@ -63,65 +63,65 @@
             <table>
                 <tr>
                     <th>Product</th>
-                    <th>Quantity</th>
+                    <th>Quantity（month）</th>
                     <th>Subtotal</th>
                 </tr>
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="book-Home/Book1.jpeg"">
+                            <img src="Best-selling Toeic/單字.jpg.jpeg">
                             <div>
-                                <p>真理</p>
-                                <small id="Price1">Price: $50.00</small>
+                                <p>全新制怪物講師教學團隊的TOEIC多益5回全真模擬試題+解析【修訂版】</p>
+                                <small>Price: $473.00</small>
                                 <br>
                                 <a href="">Remove</a>
                             </div>
                         </div>
                     </td>
-                    <td><input type="number" id="Quantity1" value="1" onclick="calculate()"></td>
-                    <td id="Total1">$50.00</td>
+                    <td><input type="number" value="1" onclick="calculate()"></td>
+                    <td>$473.00</td>
                 </tr>
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="book-Home/book3.jpeg">
+                            <img src="Electrical Engineering and Computer Science/Management Information Systems- Managing the Digital Firm 16th 版本.jpg">
                             <div>
-                                <p>多益</p>
-                                <small>Price: $75.00</small>
+                                <p>Management Information Systems: Managing the Digital Firm 16th 版本</p>
+                                <small>Price: $528.00</small>
                                 <br>
                                 <a href="">Remove</a>
                             </div>
                         </div>
                     </td>
                     <td><input type="number" value="1"></td>
-                    <td>$75.00</td>
+                    <td>$528.00</td>
                 </tr>                
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="book-Home/book4.jpeg">
+                            <img src="College-of-Commerce/1.jpg">
                             <div>
-                                <p>元宇宙</p>
-                                <small>Price: $75.00</small>
+                                <p>Token Economy: How the Web3 reinvents the Internet 2nd 版本</p>
+                                <small>Price: $675.00</small>
                                 <br>
                                 <a href="">Remove</a>
                             </div>
                         </div>
                     </td>
                     <td><input type="number" value="1"></td>
-                    <td>$75.00</td>
+                    <td>$675.00</td>
                 </tr>
             </table>
             <div class="total-price">
                 <table>
                     <tr>
-                        <td>Subtotal</td>
-                        <td>$200</td>
+                        <td>原價 : </td>
+                        <td>$1902.00</td>
                     </tr>
 
                     <tr>
-                        <td>Total</td>
-                        <td>$230</td>
+                        <td>特價 ：</td>
+                        <td>$1676.00</td>
                     </tr>
                 </table>
             </div>
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <div class="footer-col-2">
-                        <img src="LOGO.png">
+                        <img src="Book store.jpeg">
                         <h3>Download Our app</h3>
                         <p>Download App for Android and ios mobile phone</p>
                     </div>
@@ -184,7 +184,7 @@
                 }
             }
         </script>
-        <script>
+        <!-- <script>
             var Quantity1 = document.getElementById("Quantity1").value;
             var Price1 = document.getElementById("Price1");
             var Total1 = document.getElementById("Total1");
@@ -193,8 +193,8 @@
                 var Quantity1 = document.getElementById("Quantity1").value;
                 var Price1 = document.getElementById("Price1");
                 var Total1 = document.getElementById("Total1");
-                Total1.innerHTML = 50.00* Quantity1;
+                Total1.innerHTML = 50.00 * Quantity1;
             }
-        </script>
+        </script> -->
     </body>
 </html>
