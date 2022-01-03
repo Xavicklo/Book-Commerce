@@ -73,14 +73,14 @@
                             <img src="book-Home/Book1.jpeg"">
                             <div>
                                 <p>真理</p>
-                                <small>Price: $50.00</small>
+                                <small id="Price1">Price: $50.00</small>
                                 <br>
                                 <a href="">Remove</a>
                             </div>
                         </div>
                     </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$50.00</td>
+                    <td><input type="number" id="Quantity1" value="1" onclick="calculate()"></td>
+                    <td id="Total1">$50.00</td>
                 </tr>
                 <tr>
                     <td>
@@ -129,6 +129,7 @@
                     </tr>
                 </table>
             </div>
+            <div class="btn-Purchase">Purchase</div>
         </div>
 
 
@@ -187,6 +188,17 @@
                 }
             }
         </script>
-
+        <script>
+            var Quantity1 = document.getElementById("Quantity1").value;
+            var Price1 = document.getElementById("Price1");
+            var Total1 = document.getElementById("Total1");
+            Total1.innerHTML = 50.00* Quantity1;
+            function calculate(){
+                var Quantity1 = document.getElementById("Quantity1").value;
+                var Price1 = document.getElementById("Price1");
+                var Total1 = document.getElementById("Total1");
+                Total1.innerHTML = 50.00* Quantity1;
+            }
+        </script>
     </body>
 </html>
