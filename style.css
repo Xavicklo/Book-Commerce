@@ -139,7 +139,7 @@ p{
     background: #563434;
 }
 
-.btn-Purchase{
+/* .btn-Purchase{
     position: absolute;
     right: 14%;
     display: inline-block;
@@ -153,6 +153,22 @@ p{
 
 .btn-Purchase:hover{
     background: #563434;
+} */
+
+.btn-Borrow{
+    position: absolute;
+    right: 14%;
+    display: inline-block;
+    background:rgb(73, 5, 151);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn-Borrow:hover{
+    background: orange;
 }
 
 .header{
